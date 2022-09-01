@@ -8,6 +8,9 @@ mix
     jquery: ['$', 'window.jQuery']
   })
   .sass('src/scss/main.scss', 'css')
+  .options({
+    postCss: [ require('tailwindcss') ],
+  })
   .sourceMaps()
   .setPublicPath('dist');
 
