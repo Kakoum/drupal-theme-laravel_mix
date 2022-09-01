@@ -1,10 +1,9 @@
 name: laravel_mix
 type: theme
-description: OpenEuropa base theme.
+description: Laravel mix theme.
 package: Kakoum
 base theme: stable9
 core_version_requirement: ^9
 
 libraries:
-  - oe_theme/external_svg
-  - oe_theme/print
+  - laravel_mix/global-styling
